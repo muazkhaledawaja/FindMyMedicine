@@ -1,0 +1,62 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.*.local
+
+# Node dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+.log/
+
+# Editor and system files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build and output directories
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Docker files
+docker-compose.yml
+docker-compose.override.yml
+.dockerignore
+Dockerfile
+Dockerfile.dev
+Dockerfile.prod
+/tmp
+docker-data/
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+jest/
+test-report/
+junit.xml
+
+# Misc
+*.bak
+*.backup
