@@ -16,7 +16,9 @@ import PharmacyProfileService from "./PharmacyProfileService";
 import ActivityLogService from "./ActivityLogService";
 import PharmacyMedicineService from "./PharmacyMedicineService";
 
-export {
+export
+
+{
     PrescriptionService,
     MedicineService,
     RegionService,
